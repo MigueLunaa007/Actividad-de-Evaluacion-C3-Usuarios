@@ -6,7 +6,7 @@ class Usuario:
         self.nombre = nombre
         self.email =    self._validar_email(email)  # desafio: validacion de email
 
-    # valida que el email tenga un formato correcto
+    # valida que el email tenga un formato correcto usando regex (regular expression)
     def _validar_email(self, email):
         patron = r'^[\w\.-]+@[\w\.-]+\.\w{2,}$'
         if re.match(patron, email):
