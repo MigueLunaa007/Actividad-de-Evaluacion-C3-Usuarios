@@ -80,7 +80,7 @@ def menu():
         print("╠══════════════════════════════════╣")
         print("║  1. Mostrar todos los usuarios   ║")
         print("║  2. Agregar nuevo usuario        ║")
-        print("║  3. Demostracion polimorfismo     ║")
+        print("║  3. Demostracion polimorfismo    ║")
         print("║  4. Saludar a todos              ║")
         print("║  5. Salir                        ║")
         print("╚══════════════════════════════════╝")
